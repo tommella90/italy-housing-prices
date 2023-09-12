@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+beautifulsoup4 = "==4.9.1"
+numpy = "*"
+pandas = "*"
+parquet = "*"
+fastparquet = "*"
+termcolor = "*"
+google-api-python-client = "*"
+google-cloud-storage = "*"
+install = "*"
+tqdm = "==4.1.0"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
