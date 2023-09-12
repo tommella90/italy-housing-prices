@@ -1,3 +1,4 @@
 src/dataframes
 credential_config
 streamlit_app
+__pycache__/
