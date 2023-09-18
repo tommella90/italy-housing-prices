@@ -194,7 +194,7 @@ def main(limit, regione):
                 new_row = make_dataframe(url)
                 df_new = pd.concat([df_new, new_row], axis=0)
                 df_new['regione'] = regione
-                time.sleep(sleep)
+                #time.sleep(sleep)
             except Exception as e:
                 print("ERROR : "+str(e), url)
 

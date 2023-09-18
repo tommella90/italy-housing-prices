@@ -1,11 +1,11 @@
 
-
+#%%
 import pandas as pd
 import housing_modules.scrapers.scraping_rents_cities as rents_cities_scraper
 import housing_modules.scrapers.scraping_rents_regions as rents_regions_scraper
 import housing_modules.scrapers.scraping_sale_cities as sale_cities_scraper
 import housing_modules.scrapers.scraping_sale_regions as sale_regions_scraper
-import credential_config.get_credentials as gc
+#import credential_config.get_credentials as gc
 import subprocess
 import time
 import os 
@@ -13,7 +13,6 @@ from tqdm import tqdm
 from termcolor import colored
 import warnings
 warnings.filterwarnings("ignore")
-
 
 REGIONI = ['lombardia', 'piemonte', 'veneto', 'emilia-romagna', 'toscana', 'lazio',
            'campania', 'sicilia', 'sardegna', 'puglia', 'abruzzo', 'marche', 'liguria', 
@@ -57,6 +56,7 @@ def update_dataframe(dataframe, area, scraper, progress):
     
 
 # get user and create dataframes folder
+"""
 user_name, user_email = gc.get_git_user_info()
 
 if user_name == "Tommaso Ramella" and user_email == "tommaso.ramella90@gmail.com":
@@ -68,7 +68,7 @@ else:
     gc.query_housing_data("rents/rents_clean.parquet", "dataframes/rents_clean.parquet")
     gc.query_housing_data("sales/sales_raw.parquet", "dataframes/sales_raw.parquet")
     gc.query_housing_data("sales/sales_clean.parquet", "dataframes/sales_clean.parquet")
-
+"""
     
     
 
@@ -76,28 +76,31 @@ else:
 n_pages = int(input("How many pages do you want to scrape? (Max.:80)"))
 start = time.time()
 
+#%%
 # ----- #
 # RENTS #
 # ----- #
-DATAFRAME_RENTS = "dataframes/rents_raw.parquet"
+DATAFRAME_RENTS = "src/dataframes/rents_raw.parquet"
 df = pd.read_parquet(DATAFRAME_RENTS)
 starting_n = len(df)
 print("Starting n: ", starting_n)
 
+#%%
 # regions
 SCRAPER = "rents_region"
 print_process("1. RENT - regions")
 update_dataframe(DATAFRAME_RENTS, REGIONI, SCRAPER, "Rents -regions: 1/4")
 
+#%%
 # cities
 SCRAPER = "rents_cities"
 print_process("2. RENT - cities")
-update_dataframe(DATAFRAME_RENTS, CAPOLUOGHI, SCRAPER, "Rents - cities: 2/4", "rents_city")
+update_dataframe(DATAFRAME_RENTS, CAPOLUOGHI, SCRAPER, "Rents - cities: 2/4")
 
 # ----- #
 # SALES #
 # ----- #
-DATAFRAME_SALES = "dataframes/sales_raw.parquet"
+DATAFRAME_SALES = "src/dataframes/sales_raw.parquet"
 df = pd.read_parquet(DATAFRAME_SALES)
 starting_n = len(df)
 print("Starting n: ", starting_n)
@@ -122,5 +125,3 @@ print(f'process terminated in {time}')
 # Close
 key = input("Press any key to close...")
 
-
-# %%

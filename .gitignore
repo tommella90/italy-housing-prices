@@ -1,4 +1,9 @@
 src/dataframes
-credential_config
+src/credential_config
 streamlit_app
 __pycache__/
+**/.DS_Store
+save_to_gc.py
+maintenance
+machine_learning
+playground.py

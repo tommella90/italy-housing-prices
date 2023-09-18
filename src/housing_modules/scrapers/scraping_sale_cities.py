@@ -163,7 +163,7 @@ def main(limit, citta):
                 new_row = make_dataframe(url)
                 new_row['regione'] = capoluoghi[new_row['citta'][0].lower()]
                 df_new = pd.concat([df_new, new_row], axis=0)
-                time.sleep(sleep)
+                #time.sleep(sleep)
 
             except Exception as e:
                 print("ERROR : "+str(e), url)
