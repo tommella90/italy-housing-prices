@@ -1,6 +1,4 @@
 #%%
-#https://towardsdatascience.com/creating-custom-transformers-for-sklearn-pipelines-d3d51852ecc1
-
 import pandas as pd
 import numpy as np
 import re

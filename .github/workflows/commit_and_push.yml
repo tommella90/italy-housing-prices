@@ -22,7 +22,7 @@ jobs:
       - name: Commit and push
         run: |
           git add .
-          git commit -m "Automated commit on $(date)"
+          git commit -m "Automated commit"
           git push
 
       - name: maintenance
