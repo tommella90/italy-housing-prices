@@ -1,9 +1,17 @@
+# data
 src/dataframes
+
+# cache
 src/credential_config
-streamlit_app
 __pycache__/
 **/.DS_Store
+.gitignore
+
+# maintenance
 save_to_gc.py
 maintenance
+
+# temp
 machine_learning
 playground.py
+streamlit_app

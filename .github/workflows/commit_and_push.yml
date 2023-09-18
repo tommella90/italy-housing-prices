@@ -1,0 +1,47 @@
+name: Commit and Push Every Monday
+
+on:
+  schedule:
+    - cron: '0 12 * * 1'
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+
+jobs:
+  commit_and_push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Configure Git
+        run: |
+          git config user.name "Tommaso Ramella"
+          git config user.email "tommaso.ramella90@github.com"
+
+      - name: Commit and push
+        run: |
+          git add .
+          git commit -m "Automated commit on $(date)"
+          git push
+
+      - name: maintenance
+        run: |
+           python save_to_gc.py
+
+
+  run_script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Run main.py
+        run: |
+           python main.py
+           maintenance/file_version_control/version_control.py
