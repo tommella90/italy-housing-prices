@@ -43,5 +43,5 @@ jobs:
 
       - name: Run main.py
         run: |
-           python main.py
-           maintenance/file_version_control/version_control.py
+           python src/main.py
+           src/maintenance/file_version_control/version_control.py
