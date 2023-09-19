@@ -18,4 +18,6 @@ jobs:
           python-version: '3.11' # install the python version needed
 
       - name: execute py script # run main.py
-        run: python py.py
+        run: |
+          python py.py
+          src/save_to_gc.py
