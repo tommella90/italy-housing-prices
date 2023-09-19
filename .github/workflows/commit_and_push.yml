@@ -6,21 +6,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  commit_and_push:
+  build:
     runs-on: macos-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
+      - name: setup python
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.11
+          python-version: '3.11' # install the python version needed
 
-      - name: maintenance
-        run: |
-           echo "maintenance done"
-           ls -la 
-           python ../save_to_csv.py
-          
-
+      - name: execute py script # run main.py
+        run: python py.py
