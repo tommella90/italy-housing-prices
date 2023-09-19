@@ -8,7 +8,7 @@ __pycache__/
 .gitignore
 
 # maintenance
-save_to_gc.py
+#save_to_gc.py
 maintenance
 
 # temp

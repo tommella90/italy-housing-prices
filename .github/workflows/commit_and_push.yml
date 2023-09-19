@@ -20,5 +20,7 @@ jobs:
       - name: maintenance
         run: |
            echo "maintenance done"
+           echo pwd
+           python save_to_csv.py
           
 
