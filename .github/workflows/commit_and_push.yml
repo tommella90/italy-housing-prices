@@ -3,24 +3,11 @@ name: Commit and Push
 on:
   schedule:
     - cron: '0 12 * * 1'
-    - cron: '0 0 1 * *'
   workflow_dispatch:
-
 
 jobs:
   commit_and_push:
     runs-on: macos-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: maintenance
-        run: |
-           python save_to_gc.py
-
-
-  run_script:
-    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -30,7 +17,8 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Run main.py
+      - name: maintenance
         run: |
-           python src/main.py
-           src/maintenance/file_version_control/version_control.py
+           echo "maintenance done"
+          
+
