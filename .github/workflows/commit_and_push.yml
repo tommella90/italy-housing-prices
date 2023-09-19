@@ -21,6 +21,6 @@ jobs:
         run: |
            echo "maintenance done"
            ls -la 
-           python save_to_csv.py
+           python ../save_to_csv.py
           
 
