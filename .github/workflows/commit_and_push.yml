@@ -1,4 +1,4 @@
-name: Commit and Push Every Monday
+name: Commit and Push 
 
 on:
   schedule:
@@ -19,7 +19,6 @@ jobs:
         run: |
           git config --local user.email "tommaso.ra"
           git config --local user.name "github-actions[bot]"
-          git add .
           git commit -m "Build" -a
 
       - name: Push
