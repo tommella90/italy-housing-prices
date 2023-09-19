@@ -14,26 +14,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Commit
-        if: steps.verify_diff.outputs.changed == 'true'
-        run: |
-          git config --local user.email "tommaso.ra"
-          git config --local user.name "github-actions[bot]"
-          git commit -m "Build" -a
-
-      - name: Push
-        if: steps.verify_diff.outputs.changed == 'true'
-        uses: ad-m/github-push-action@master
-       #  with:
-       #    github_token: ${{ secrets.GITHUB_TOKEN }}
-       #    branch: ${{ github.ref }}
-
-      - name: Commit and push
-        run: |
-          git add .
-          git commit -m "Automated commit"
-          git push
-
       - name: maintenance
         run: |
            python save_to_gc.py
