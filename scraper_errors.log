@@ -1,0 +1,607 @@
+2023-10-26 09:27:00,102 - ERROR - Error in lombardia: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,102 - ERROR - Error in piemonte: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,102 - ERROR - Error in veneto: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,102 - ERROR - Error in emilia-romagna: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in toscana: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in lazio: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in campania: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in sicilia: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in sardegna: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in puglia: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in abruzzo: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in marche: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in liguria: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in trentino-alto-adige: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in umbria: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,103 - ERROR - Error in molise: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in basilicata: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in valle-d-aosta: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in milano: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in torino: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in genova: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in firenze: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in roma: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in napoli: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in aosta: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in palermo: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,104 - ERROR - Error in bari: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in ancona: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in trento: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in campobasso: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in catanzaro: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in genoa: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in l-aquila: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in potenza: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in trieste: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in venezia: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in lombardia: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in piemonte: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,105 - ERROR - Error in veneto: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in emilia-romagna: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in toscana: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in lazio: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in campania: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in sicilia: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in sardegna: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in puglia: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in abruzzo: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in marche: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in liguria: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in trentino-alto-adige: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in umbria: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,106 - ERROR - Error in molise: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in basilicata: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in valle-d-aosta: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in milano: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in torino: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in genova: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in firenze: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in roma: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in napoli: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in aosta: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in palermo: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in bari: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,107 - ERROR - Error in ancona: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,108 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,108 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,108 - ERROR - Error in trento: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,108 - ERROR - Error in campobasso: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,108 - ERROR - Error in catanzaro: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,108 - ERROR - Error in genoa: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,108 - ERROR - Error in l-aquila: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,108 - ERROR - Error in potenza: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,108 - ERROR - Error in trieste: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:27:00,108 - ERROR - Error in venezia: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,960 - ERROR - Error in lombardia: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,961 - ERROR - Error in piemonte: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,961 - ERROR - Error in veneto: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,961 - ERROR - Error in emilia-romagna: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,961 - ERROR - Error in toscana: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,961 - ERROR - Error in lazio: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,961 - ERROR - Error in campania: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,961 - ERROR - Error in sicilia: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,961 - ERROR - Error in sardegna: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,961 - ERROR - Error in puglia: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,961 - ERROR - Error in abruzzo: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in marche: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in liguria: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in trentino-alto-adige: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in umbria: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in molise: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in basilicata: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in valle-d-aosta: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in milano: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in torino: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in genova: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,962 - ERROR - Error in firenze: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in roma: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in napoli: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in aosta: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in palermo: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in bari: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in ancona: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in trento: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in campobasso: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in catanzaro: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in genoa: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in l-aquila: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,963 - ERROR - Error in potenza: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in trieste: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in venezia: [Errno 2] No such file or directory: 'dataframes/sales_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in lombardia: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in piemonte: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in veneto: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in emilia-romagna: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in toscana: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in lazio: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in campania: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in sicilia: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in sardegna: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in puglia: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,964 - ERROR - Error in abruzzo: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in marche: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in liguria: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in trentino-alto-adige: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in umbria: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in molise: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in basilicata: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in valle-d-aosta: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in milano: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in torino: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in genova: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,965 - ERROR - Error in firenze: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in roma: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in napoli: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in aosta: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in palermo: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in bari: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in ancona: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in trento: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in campobasso: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in catanzaro: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in genoa: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in l-aquila: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,966 - ERROR - Error in potenza: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,967 - ERROR - Error in trieste: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:29:29,967 - ERROR - Error in venezia: [Errno 2] No such file or directory: 'dataframes/rents_raw.parquet'
+2023-10-26 09:30:42,864 - ERROR - Error in lombardia: 'NoneType' object is not iterable
+2023-10-26 09:30:42,864 - ERROR - Error in piemonte: 'NoneType' object is not iterable
+2023-10-26 09:30:42,864 - ERROR - Error in veneto: 'NoneType' object is not iterable
+2023-10-26 09:30:42,865 - ERROR - Error in emilia-romagna: 'NoneType' object is not iterable
+2023-10-26 09:30:42,865 - ERROR - Error in toscana: 'NoneType' object is not iterable
+2023-10-26 09:30:42,865 - ERROR - Error in lazio: 'NoneType' object is not iterable
+2023-10-26 09:30:42,865 - ERROR - Error in campania: 'NoneType' object is not iterable
+2023-10-26 09:30:42,865 - ERROR - Error in sicilia: 'NoneType' object is not iterable
+2023-10-26 09:30:42,865 - ERROR - Error in sardegna: 'NoneType' object is not iterable
+2023-10-26 09:30:42,865 - ERROR - Error in puglia: 'NoneType' object is not iterable
+2023-10-26 09:30:42,865 - ERROR - Error in abruzzo: 'NoneType' object is not iterable
+2023-10-26 09:30:42,865 - ERROR - Error in marche: 'NoneType' object is not iterable
+2023-10-26 09:30:42,865 - ERROR - Error in liguria: 'NoneType' object is not iterable
+2023-10-26 09:30:42,866 - ERROR - Error in calabriafriuli-venezia-giulia: 'NoneType' object is not iterable
+2023-10-26 09:30:42,866 - ERROR - Error in trentino-alto-adige: 'NoneType' object is not iterable
+2023-10-26 09:30:42,866 - ERROR - Error in umbria: 'NoneType' object is not iterable
+2023-10-26 09:30:42,866 - ERROR - Error in molise: 'NoneType' object is not iterable
+2023-10-26 09:30:42,866 - ERROR - Error in basilicata: 'NoneType' object is not iterable
+2023-10-26 09:30:42,866 - ERROR - Error in valle-d-aosta: 'NoneType' object is not iterable
+2023-10-26 09:30:42,866 - ERROR - Error in milano: 'NoneType' object is not iterable
+2023-10-26 09:30:42,866 - ERROR - Error in torino: 'NoneType' object is not iterable
+2023-10-26 09:30:42,866 - ERROR - Error in genova: 'NoneType' object is not iterable
+2023-10-26 09:30:42,866 - ERROR - Error in bologna: 'NoneType' object is not iterable
+2023-10-26 09:30:42,867 - ERROR - Error in firenze: 'NoneType' object is not iterable
+2023-10-26 09:30:42,867 - ERROR - Error in roma: 'NoneType' object is not iterable
+2023-10-26 09:30:42,867 - ERROR - Error in napoli: 'NoneType' object is not iterable
+2023-10-26 09:30:42,867 - ERROR - Error in aosta: 'NoneType' object is not iterable
+2023-10-26 09:30:42,867 - ERROR - Error in palermo: 'NoneType' object is not iterable
+2023-10-26 09:30:42,867 - ERROR - Error in cagliari: 'NoneType' object is not iterable
+2023-10-26 09:30:42,867 - ERROR - Error in bari: 'NoneType' object is not iterable
+2023-10-26 09:30:42,867 - ERROR - Error in ancona: 'NoneType' object is not iterable
+2023-10-26 09:30:42,867 - ERROR - Error in bologna: 'NoneType' object is not iterable
+2023-10-26 09:30:42,867 - ERROR - Error in cagliari: 'NoneType' object is not iterable
+2023-10-26 09:30:42,868 - ERROR - Error in trento: 'NoneType' object is not iterable
+2023-10-26 09:30:42,868 - ERROR - Error in campobasso: 'NoneType' object is not iterable
+2023-10-26 09:30:42,868 - ERROR - Error in catanzaro: 'NoneType' object is not iterable
+2023-10-26 09:30:42,868 - ERROR - Error in genoa: 'NoneType' object is not iterable
+2023-10-26 09:30:42,868 - ERROR - Error in l-aquila: 'NoneType' object is not iterable
+2023-10-26 09:30:42,868 - ERROR - Error in potenza: 'NoneType' object is not iterable
+2023-10-26 09:30:42,868 - ERROR - Error in trieste: 'NoneType' object is not iterable
+2023-10-26 09:30:42,868 - ERROR - Error in venezia: 'NoneType' object is not iterable
+2023-10-26 22:10:19,216 - ERROR - Error in lombardia: [Errno 22] Invalid argument
+2023-10-26 22:10:19,216 - ERROR - Error in piemonte: [Errno 22] Invalid argument
+2023-10-26 22:10:19,217 - ERROR - Error in veneto: [Errno 22] Invalid argument
+2023-10-26 22:10:19,217 - ERROR - Error in emilia-romagna: [Errno 22] Invalid argument
+2023-10-26 22:10:19,217 - ERROR - Error in toscana: [Errno 22] Invalid argument
+2023-10-26 22:10:19,217 - ERROR - Error in lazio: [Errno 22] Invalid argument
+2023-10-26 22:10:19,217 - ERROR - Error in campania: [Errno 22] Invalid argument
+2023-10-26 22:10:19,217 - ERROR - Error in sicilia: [Errno 22] Invalid argument
+2023-10-26 22:10:19,217 - ERROR - Error in sardegna: [Errno 22] Invalid argument
+2023-10-26 22:10:19,217 - ERROR - Error in puglia: [Errno 22] Invalid argument
+2023-10-26 22:10:19,218 - ERROR - Error in abruzzo: [Errno 22] Invalid argument
+2023-10-26 22:10:19,218 - ERROR - Error in marche: [Errno 22] Invalid argument
+2023-10-26 22:10:19,218 - ERROR - Error in liguria: [Errno 22] Invalid argument
+2023-10-26 22:10:19,218 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 22] Invalid argument
+2023-10-26 22:10:19,218 - ERROR - Error in trentino-alto-adige: [Errno 22] Invalid argument
+2023-10-26 22:10:19,218 - ERROR - Error in umbria: [Errno 22] Invalid argument
+2023-10-26 22:10:19,218 - ERROR - Error in molise: [Errno 22] Invalid argument
+2023-10-26 22:10:19,218 - ERROR - Error in basilicata: [Errno 22] Invalid argument
+2023-10-26 22:10:19,218 - ERROR - Error in valle-d-aosta: [Errno 22] Invalid argument
+2023-10-26 22:10:19,218 - ERROR - Error in milano: [Errno 22] Invalid argument
+2023-10-26 22:10:19,219 - ERROR - Error in torino: [Errno 22] Invalid argument
+2023-10-26 22:10:19,219 - ERROR - Error in genova: [Errno 22] Invalid argument
+2023-10-26 22:10:19,219 - ERROR - Error in bologna: [Errno 22] Invalid argument
+2023-10-26 22:10:19,219 - ERROR - Error in firenze: [Errno 22] Invalid argument
+2023-10-26 22:10:19,219 - ERROR - Error in roma: [Errno 22] Invalid argument
+2023-10-26 22:10:19,219 - ERROR - Error in napoli: [Errno 22] Invalid argument
+2023-10-26 22:10:19,219 - ERROR - Error in aosta: [Errno 22] Invalid argument
+2023-10-26 22:10:19,219 - ERROR - Error in palermo: [Errno 22] Invalid argument
+2023-10-26 22:10:19,219 - ERROR - Error in cagliari: [Errno 22] Invalid argument
+2023-10-26 22:10:19,219 - ERROR - Error in bari: [Errno 22] Invalid argument
+2023-10-26 22:10:19,219 - ERROR - Error in ancona: [Errno 22] Invalid argument
+2023-10-26 22:10:19,220 - ERROR - Error in bologna: [Errno 22] Invalid argument
+2023-10-26 22:10:19,220 - ERROR - Error in cagliari: [Errno 22] Invalid argument
+2023-10-26 22:10:19,220 - ERROR - Error in trento: [Errno 22] Invalid argument
+2023-10-26 22:10:19,220 - ERROR - Error in campobasso: [Errno 22] Invalid argument
+2023-10-26 22:10:19,220 - ERROR - Error in catanzaro: [Errno 22] Invalid argument
+2023-10-26 22:10:19,220 - ERROR - Error in l-aquila: [Errno 22] Invalid argument
+2023-10-26 22:10:19,220 - ERROR - Error in potenza: [Errno 22] Invalid argument
+2023-10-26 22:10:19,220 - ERROR - Error in trieste: [Errno 22] Invalid argument
+2023-10-26 22:10:19,220 - ERROR - Error in venezia: [Errno 22] Invalid argument
+2023-10-26 22:10:19,221 - ERROR - Error in lombardia: [Errno 22] Invalid argument
+2023-10-26 22:10:19,221 - ERROR - Error in piemonte: [Errno 22] Invalid argument
+2023-10-26 22:10:19,221 - ERROR - Error in veneto: [Errno 22] Invalid argument
+2023-10-26 22:10:19,221 - ERROR - Error in emilia-romagna: [Errno 22] Invalid argument
+2023-10-26 22:10:19,221 - ERROR - Error in toscana: [Errno 22] Invalid argument
+2023-10-26 22:10:19,221 - ERROR - Error in lazio: [Errno 22] Invalid argument
+2023-10-26 22:10:19,221 - ERROR - Error in campania: [Errno 22] Invalid argument
+2023-10-26 22:10:19,221 - ERROR - Error in sicilia: [Errno 22] Invalid argument
+2023-10-26 22:10:19,221 - ERROR - Error in sardegna: [Errno 22] Invalid argument
+2023-10-26 22:10:19,221 - ERROR - Error in puglia: [Errno 22] Invalid argument
+2023-10-26 22:10:19,222 - ERROR - Error in abruzzo: [Errno 22] Invalid argument
+2023-10-26 22:10:19,222 - ERROR - Error in marche: [Errno 22] Invalid argument
+2023-10-26 22:10:19,222 - ERROR - Error in liguria: [Errno 22] Invalid argument
+2023-10-26 22:10:19,222 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 22] Invalid argument
+2023-10-26 22:10:19,222 - ERROR - Error in trentino-alto-adige: [Errno 22] Invalid argument
+2023-10-26 22:10:19,222 - ERROR - Error in umbria: [Errno 22] Invalid argument
+2023-10-26 22:10:19,222 - ERROR - Error in molise: [Errno 22] Invalid argument
+2023-10-26 22:10:19,222 - ERROR - Error in basilicata: [Errno 22] Invalid argument
+2023-10-26 22:10:19,222 - ERROR - Error in valle-d-aosta: [Errno 22] Invalid argument
+2023-10-26 22:10:19,222 - ERROR - Error in milano: [Errno 22] Invalid argument
+2023-10-26 22:10:19,222 - ERROR - Error in torino: [Errno 22] Invalid argument
+2023-10-26 22:10:19,223 - ERROR - Error in genova: [Errno 22] Invalid argument
+2023-10-26 22:10:19,223 - ERROR - Error in bologna: [Errno 22] Invalid argument
+2023-10-26 22:10:19,223 - ERROR - Error in firenze: [Errno 22] Invalid argument
+2023-10-26 22:10:19,223 - ERROR - Error in roma: [Errno 22] Invalid argument
+2023-10-26 22:10:19,223 - ERROR - Error in napoli: [Errno 22] Invalid argument
+2023-10-26 22:10:19,223 - ERROR - Error in aosta: [Errno 22] Invalid argument
+2023-10-26 22:10:19,223 - ERROR - Error in palermo: [Errno 22] Invalid argument
+2023-10-26 22:10:19,223 - ERROR - Error in cagliari: [Errno 22] Invalid argument
+2023-10-26 22:10:19,223 - ERROR - Error in bari: [Errno 22] Invalid argument
+2023-10-26 22:10:19,223 - ERROR - Error in ancona: [Errno 22] Invalid argument
+2023-10-26 22:10:19,223 - ERROR - Error in bologna: [Errno 22] Invalid argument
+2023-10-26 22:10:19,224 - ERROR - Error in cagliari: [Errno 22] Invalid argument
+2023-10-26 22:10:19,224 - ERROR - Error in trento: [Errno 22] Invalid argument
+2023-10-26 22:10:19,224 - ERROR - Error in campobasso: [Errno 22] Invalid argument
+2023-10-26 22:10:19,224 - ERROR - Error in catanzaro: [Errno 22] Invalid argument
+2023-10-26 22:10:19,224 - ERROR - Error in l-aquila: [Errno 22] Invalid argument
+2023-10-26 22:10:19,224 - ERROR - Error in potenza: [Errno 22] Invalid argument
+2023-10-26 22:10:19,224 - ERROR - Error in trieste: [Errno 22] Invalid argument
+2023-10-26 22:10:19,224 - ERROR - Error in venezia: [Errno 22] Invalid argument
+2023-10-26 22:37:46,464 - ERROR - Error in liguria: Error converting column "bagni" to bytes using encoding None. Original error: could not convert string to float: ''
+2023-10-26 22:37:46,712 - ERROR - Error in lombardia: 'NoneType' object is not iterable
+2023-10-26 22:37:46,712 - ERROR - Error in piemonte: 'NoneType' object is not iterable
+2023-10-26 22:37:46,712 - ERROR - Error in veneto: 'NoneType' object is not iterable
+2023-10-26 22:37:46,713 - ERROR - Error in emilia-romagna: 'NoneType' object is not iterable
+2023-10-26 22:37:46,713 - ERROR - Error in toscana: 'NoneType' object is not iterable
+2023-10-26 22:37:46,713 - ERROR - Error in lazio: 'NoneType' object is not iterable
+2023-10-26 22:37:46,713 - ERROR - Error in campania: 'NoneType' object is not iterable
+2023-10-26 22:37:46,713 - ERROR - Error in sicilia: 'NoneType' object is not iterable
+2023-10-26 22:37:46,713 - ERROR - Error in sardegna: 'NoneType' object is not iterable
+2023-10-26 22:37:46,713 - ERROR - Error in puglia: 'NoneType' object is not iterable
+2023-10-26 22:37:46,713 - ERROR - Error in abruzzo: 'NoneType' object is not iterable
+2023-10-26 22:37:46,713 - ERROR - Error in marche: 'NoneType' object is not iterable
+2023-10-26 22:37:46,714 - ERROR - Error in liguria: 'NoneType' object is not iterable
+2023-10-26 22:37:46,714 - ERROR - Error in calabriafriuli-venezia-giulia: 'NoneType' object is not iterable
+2023-10-26 22:37:46,714 - ERROR - Error in trentino-alto-adige: 'NoneType' object is not iterable
+2023-10-26 22:37:46,714 - ERROR - Error in umbria: 'NoneType' object is not iterable
+2023-10-26 22:37:46,714 - ERROR - Error in molise: 'NoneType' object is not iterable
+2023-10-26 22:37:46,714 - ERROR - Error in basilicata: 'NoneType' object is not iterable
+2023-10-26 22:37:46,714 - ERROR - Error in valle-d-aosta: 'NoneType' object is not iterable
+2023-10-26 22:37:46,714 - ERROR - Error in milano: 'NoneType' object is not iterable
+2023-10-26 22:37:46,714 - ERROR - Error in torino: 'NoneType' object is not iterable
+2023-10-26 22:37:46,714 - ERROR - Error in genova: 'NoneType' object is not iterable
+2023-10-26 22:37:46,715 - ERROR - Error in bologna: 'NoneType' object is not iterable
+2023-10-26 22:37:46,715 - ERROR - Error in firenze: 'NoneType' object is not iterable
+2023-10-26 22:37:46,715 - ERROR - Error in roma: 'NoneType' object is not iterable
+2023-10-26 22:37:46,715 - ERROR - Error in napoli: 'NoneType' object is not iterable
+2023-10-26 22:37:46,715 - ERROR - Error in aosta: 'NoneType' object is not iterable
+2023-10-26 22:37:46,715 - ERROR - Error in palermo: 'NoneType' object is not iterable
+2023-10-26 22:37:46,715 - ERROR - Error in cagliari: 'NoneType' object is not iterable
+2023-10-26 22:37:46,715 - ERROR - Error in bari: 'NoneType' object is not iterable
+2023-10-26 22:37:46,715 - ERROR - Error in ancona: 'NoneType' object is not iterable
+2023-10-26 22:37:46,715 - ERROR - Error in bologna: 'NoneType' object is not iterable
+2023-10-26 22:37:46,715 - ERROR - Error in cagliari: 'NoneType' object is not iterable
+2023-10-26 22:37:46,716 - ERROR - Error in trento: 'NoneType' object is not iterable
+2023-10-26 22:37:46,716 - ERROR - Error in campobasso: 'NoneType' object is not iterable
+2023-10-26 22:37:46,716 - ERROR - Error in catanzaro: 'NoneType' object is not iterable
+2023-10-26 22:37:46,716 - ERROR - Error in l-aquila: 'NoneType' object is not iterable
+2023-10-26 22:37:46,716 - ERROR - Error in potenza: 'NoneType' object is not iterable
+2023-10-26 22:37:46,716 - ERROR - Error in trieste: 'NoneType' object is not iterable
+2023-10-26 22:37:46,716 - ERROR - Error in venezia: 'NoneType' object is not iterable
+2023-10-26 22:37:46,716 - ERROR - Error in lombardia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,716 - ERROR - Error in piemonte: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,716 - ERROR - Error in veneto: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,716 - ERROR - Error in emilia-romagna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,717 - ERROR - Error in toscana: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,717 - ERROR - Error in lazio: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,717 - ERROR - Error in campania: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,717 - ERROR - Error in sicilia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,717 - ERROR - Error in sardegna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,717 - ERROR - Error in puglia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,717 - ERROR - Error in abruzzo: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,717 - ERROR - Error in marche: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,717 - ERROR - Error in liguria: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,717 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,717 - ERROR - Error in trentino-alto-adige: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in umbria: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in molise: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in basilicata: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in valle-d-aosta: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in milano: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in torino: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in genova: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in firenze: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in roma: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in napoli: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in aosta: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,718 - ERROR - Error in palermo: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in bari: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in ancona: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in trento: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in campobasso: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in catanzaro: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in l-aquila: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in potenza: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in trieste: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:37:46,719 - ERROR - Error in venezia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw.parquet'
+2023-10-26 22:38:10,792 - ERROR - Error in liguria: 'NoneType' object is not iterable
+2023-10-26 22:38:10,792 - ERROR - Error in lombardia: 'NoneType' object is not iterable
+2023-10-26 22:38:10,793 - ERROR - Error in piemonte: 'NoneType' object is not iterable
+2023-10-26 22:38:10,793 - ERROR - Error in veneto: 'NoneType' object is not iterable
+2023-10-26 22:38:10,793 - ERROR - Error in emilia-romagna: 'NoneType' object is not iterable
+2023-10-26 22:38:10,793 - ERROR - Error in toscana: 'NoneType' object is not iterable
+2023-10-26 22:38:10,793 - ERROR - Error in lazio: 'NoneType' object is not iterable
+2023-10-26 22:38:10,793 - ERROR - Error in campania: 'NoneType' object is not iterable
+2023-10-26 22:38:10,793 - ERROR - Error in sicilia: 'NoneType' object is not iterable
+2023-10-26 22:38:10,793 - ERROR - Error in sardegna: 'NoneType' object is not iterable
+2023-10-26 22:38:10,793 - ERROR - Error in puglia: 'NoneType' object is not iterable
+2023-10-26 22:38:10,794 - ERROR - Error in abruzzo: 'NoneType' object is not iterable
+2023-10-26 22:38:10,794 - ERROR - Error in marche: 'NoneType' object is not iterable
+2023-10-26 22:38:10,794 - ERROR - Error in liguria: 'NoneType' object is not iterable
+2023-10-26 22:38:10,794 - ERROR - Error in calabriafriuli-venezia-giulia: 'NoneType' object is not iterable
+2023-10-26 22:38:10,794 - ERROR - Error in trentino-alto-adige: 'NoneType' object is not iterable
+2023-10-26 22:38:10,794 - ERROR - Error in umbria: 'NoneType' object is not iterable
+2023-10-26 22:38:10,794 - ERROR - Error in molise: 'NoneType' object is not iterable
+2023-10-26 22:38:10,794 - ERROR - Error in basilicata: 'NoneType' object is not iterable
+2023-10-26 22:38:10,794 - ERROR - Error in valle-d-aosta: 'NoneType' object is not iterable
+2023-10-26 22:38:10,794 - ERROR - Error in milano: 'NoneType' object is not iterable
+2023-10-26 22:38:10,795 - ERROR - Error in torino: 'NoneType' object is not iterable
+2023-10-26 22:38:10,795 - ERROR - Error in genova: 'NoneType' object is not iterable
+2023-10-26 22:38:10,795 - ERROR - Error in bologna: 'NoneType' object is not iterable
+2023-10-26 22:38:10,795 - ERROR - Error in firenze: 'NoneType' object is not iterable
+2023-10-26 22:38:10,795 - ERROR - Error in roma: 'NoneType' object is not iterable
+2023-10-26 22:38:10,795 - ERROR - Error in napoli: 'NoneType' object is not iterable
+2023-10-26 22:38:10,795 - ERROR - Error in aosta: 'NoneType' object is not iterable
+2023-10-26 22:38:10,795 - ERROR - Error in palermo: 'NoneType' object is not iterable
+2023-10-26 22:38:10,795 - ERROR - Error in cagliari: 'NoneType' object is not iterable
+2023-10-26 22:38:10,795 - ERROR - Error in bari: 'NoneType' object is not iterable
+2023-10-26 22:38:10,795 - ERROR - Error in ancona: 'NoneType' object is not iterable
+2023-10-26 22:38:10,796 - ERROR - Error in bologna: 'NoneType' object is not iterable
+2023-10-26 22:38:10,796 - ERROR - Error in cagliari: 'NoneType' object is not iterable
+2023-10-26 22:38:10,796 - ERROR - Error in trento: 'NoneType' object is not iterable
+2023-10-26 22:38:10,796 - ERROR - Error in campobasso: 'NoneType' object is not iterable
+2023-10-26 22:38:10,796 - ERROR - Error in catanzaro: 'NoneType' object is not iterable
+2023-10-26 22:38:10,796 - ERROR - Error in l-aquila: 'NoneType' object is not iterable
+2023-10-26 22:38:10,796 - ERROR - Error in potenza: 'NoneType' object is not iterable
+2023-10-26 22:38:10,796 - ERROR - Error in trieste: 'NoneType' object is not iterable
+2023-10-26 22:38:10,796 - ERROR - Error in venezia: 'NoneType' object is not iterable
+2023-10-26 22:38:10,797 - ERROR - Error in lombardia: [Errno 22] Invalid argument
+2023-10-26 22:38:10,797 - ERROR - Error in piemonte: [Errno 22] Invalid argument
+2023-10-26 22:38:10,797 - ERROR - Error in veneto: [Errno 22] Invalid argument
+2023-10-26 22:38:10,797 - ERROR - Error in emilia-romagna: [Errno 22] Invalid argument
+2023-10-26 22:38:10,797 - ERROR - Error in toscana: [Errno 22] Invalid argument
+2023-10-26 22:38:10,797 - ERROR - Error in lazio: [Errno 22] Invalid argument
+2023-10-26 22:38:10,797 - ERROR - Error in campania: [Errno 22] Invalid argument
+2023-10-26 22:38:10,797 - ERROR - Error in sicilia: [Errno 22] Invalid argument
+2023-10-26 22:38:10,797 - ERROR - Error in sardegna: [Errno 22] Invalid argument
+2023-10-26 22:38:10,797 - ERROR - Error in puglia: [Errno 22] Invalid argument
+2023-10-26 22:38:10,798 - ERROR - Error in abruzzo: [Errno 22] Invalid argument
+2023-10-26 22:38:10,798 - ERROR - Error in marche: [Errno 22] Invalid argument
+2023-10-26 22:38:10,798 - ERROR - Error in liguria: [Errno 22] Invalid argument
+2023-10-26 22:38:10,798 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 22] Invalid argument
+2023-10-26 22:38:10,798 - ERROR - Error in trentino-alto-adige: [Errno 22] Invalid argument
+2023-10-26 22:38:10,798 - ERROR - Error in umbria: [Errno 22] Invalid argument
+2023-10-26 22:38:10,798 - ERROR - Error in molise: [Errno 22] Invalid argument
+2023-10-26 22:38:10,798 - ERROR - Error in basilicata: [Errno 22] Invalid argument
+2023-10-26 22:38:10,798 - ERROR - Error in valle-d-aosta: [Errno 22] Invalid argument
+2023-10-26 22:38:10,798 - ERROR - Error in milano: [Errno 22] Invalid argument
+2023-10-26 22:38:10,798 - ERROR - Error in torino: [Errno 22] Invalid argument
+2023-10-26 22:38:10,799 - ERROR - Error in genova: [Errno 22] Invalid argument
+2023-10-26 22:38:10,799 - ERROR - Error in bologna: [Errno 22] Invalid argument
+2023-10-26 22:38:10,799 - ERROR - Error in firenze: [Errno 22] Invalid argument
+2023-10-26 22:38:10,799 - ERROR - Error in roma: [Errno 22] Invalid argument
+2023-10-26 22:38:10,799 - ERROR - Error in napoli: [Errno 22] Invalid argument
+2023-10-26 22:38:10,799 - ERROR - Error in aosta: [Errno 22] Invalid argument
+2023-10-26 22:38:10,799 - ERROR - Error in palermo: [Errno 22] Invalid argument
+2023-10-26 22:38:10,799 - ERROR - Error in cagliari: [Errno 22] Invalid argument
+2023-10-26 22:38:10,799 - ERROR - Error in bari: [Errno 22] Invalid argument
+2023-10-26 22:38:10,799 - ERROR - Error in ancona: [Errno 22] Invalid argument
+2023-10-26 22:38:10,799 - ERROR - Error in bologna: [Errno 22] Invalid argument
+2023-10-26 22:38:10,800 - ERROR - Error in cagliari: [Errno 22] Invalid argument
+2023-10-26 22:38:10,800 - ERROR - Error in trento: [Errno 22] Invalid argument
+2023-10-26 22:38:10,800 - ERROR - Error in campobasso: [Errno 22] Invalid argument
+2023-10-26 22:38:10,800 - ERROR - Error in catanzaro: [Errno 22] Invalid argument
+2023-10-26 22:38:10,800 - ERROR - Error in l-aquila: [Errno 22] Invalid argument
+2023-10-26 22:38:10,800 - ERROR - Error in potenza: [Errno 22] Invalid argument
+2023-10-26 22:38:10,800 - ERROR - Error in trieste: [Errno 22] Invalid argument
+2023-10-26 22:38:10,800 - ERROR - Error in venezia: [Errno 22] Invalid argument
+2023-10-26 23:01:09,011 - ERROR - Error in lombardia: [Errno 22] Invalid argument
+2023-10-26 23:01:09,011 - ERROR - Error in piemonte: [Errno 22] Invalid argument
+2023-10-26 23:01:09,012 - ERROR - Error in veneto: [Errno 22] Invalid argument
+2023-10-26 23:01:09,012 - ERROR - Error in emilia-romagna: [Errno 22] Invalid argument
+2023-10-26 23:01:09,012 - ERROR - Error in toscana: [Errno 22] Invalid argument
+2023-10-26 23:01:09,012 - ERROR - Error in lazio: [Errno 22] Invalid argument
+2023-10-26 23:01:09,012 - ERROR - Error in campania: [Errno 22] Invalid argument
+2023-10-26 23:01:09,012 - ERROR - Error in sicilia: [Errno 22] Invalid argument
+2023-10-26 23:01:09,012 - ERROR - Error in sardegna: [Errno 22] Invalid argument
+2023-10-26 23:01:09,012 - ERROR - Error in puglia: [Errno 22] Invalid argument
+2023-10-26 23:01:09,012 - ERROR - Error in abruzzo: [Errno 22] Invalid argument
+2023-10-26 23:01:09,012 - ERROR - Error in marche: [Errno 22] Invalid argument
+2023-10-26 23:01:09,013 - ERROR - Error in liguria: [Errno 22] Invalid argument
+2023-10-26 23:01:09,013 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 22] Invalid argument
+2023-10-26 23:01:09,013 - ERROR - Error in trentino-alto-adige: [Errno 22] Invalid argument
+2023-10-26 23:01:09,013 - ERROR - Error in umbria: [Errno 22] Invalid argument
+2023-10-26 23:01:09,013 - ERROR - Error in molise: [Errno 22] Invalid argument
+2023-10-26 23:01:09,013 - ERROR - Error in basilicata: [Errno 22] Invalid argument
+2023-10-26 23:01:09,013 - ERROR - Error in valle-d-aosta: [Errno 22] Invalid argument
+2023-10-26 23:01:09,013 - ERROR - Error in milano: [Errno 22] Invalid argument
+2023-10-26 23:01:09,013 - ERROR - Error in torino: [Errno 22] Invalid argument
+2023-10-26 23:01:09,013 - ERROR - Error in genova: [Errno 22] Invalid argument
+2023-10-26 23:01:09,014 - ERROR - Error in bologna: [Errno 22] Invalid argument
+2023-10-26 23:01:09,014 - ERROR - Error in firenze: [Errno 22] Invalid argument
+2023-10-26 23:01:09,014 - ERROR - Error in roma: [Errno 22] Invalid argument
+2023-10-26 23:01:09,014 - ERROR - Error in napoli: [Errno 22] Invalid argument
+2023-10-26 23:01:09,014 - ERROR - Error in aosta: [Errno 22] Invalid argument
+2023-10-26 23:01:09,014 - ERROR - Error in palermo: [Errno 22] Invalid argument
+2023-10-26 23:01:09,014 - ERROR - Error in cagliari: [Errno 22] Invalid argument
+2023-10-26 23:01:09,014 - ERROR - Error in bari: [Errno 22] Invalid argument
+2023-10-26 23:01:09,014 - ERROR - Error in ancona: [Errno 22] Invalid argument
+2023-10-26 23:01:09,014 - ERROR - Error in bologna: [Errno 22] Invalid argument
+2023-10-26 23:01:09,014 - ERROR - Error in cagliari: [Errno 22] Invalid argument
+2023-10-26 23:01:09,015 - ERROR - Error in trento: [Errno 22] Invalid argument
+2023-10-26 23:01:09,015 - ERROR - Error in campobasso: [Errno 22] Invalid argument
+2023-10-26 23:01:09,015 - ERROR - Error in catanzaro: [Errno 22] Invalid argument
+2023-10-26 23:01:09,015 - ERROR - Error in l-aquila: [Errno 22] Invalid argument
+2023-10-26 23:01:09,015 - ERROR - Error in potenza: [Errno 22] Invalid argument
+2023-10-26 23:01:09,015 - ERROR - Error in trieste: [Errno 22] Invalid argument
+2023-10-26 23:01:09,015 - ERROR - Error in venezia: [Errno 22] Invalid argument
+2023-10-26 23:11:14,593 - ERROR - Error in lombardia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,594 - ERROR - Error in piemonte: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,594 - ERROR - Error in veneto: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,594 - ERROR - Error in emilia-romagna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,594 - ERROR - Error in toscana: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,594 - ERROR - Error in lazio: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,594 - ERROR - Error in campania: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,594 - ERROR - Error in sicilia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,594 - ERROR - Error in sardegna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,594 - ERROR - Error in puglia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,595 - ERROR - Error in abruzzo: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,595 - ERROR - Error in marche: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,595 - ERROR - Error in liguria: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,595 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,595 - ERROR - Error in trentino-alto-adige: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,595 - ERROR - Error in umbria: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,595 - ERROR - Error in molise: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,595 - ERROR - Error in basilicata: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,595 - ERROR - Error in valle-d-aosta: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,595 - ERROR - Error in milano: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,595 - ERROR - Error in torino: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in genova: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in firenze: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in roma: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in napoli: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in aosta: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in palermo: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in bari: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in ancona: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in trento: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,596 - ERROR - Error in campobasso: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,597 - ERROR - Error in catanzaro: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,597 - ERROR - Error in l-aquila: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,597 - ERROR - Error in potenza: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,597 - ERROR - Error in trieste: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:14,597 - ERROR - Error in venezia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,334 - ERROR - Error in lombardia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,334 - ERROR - Error in piemonte: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,334 - ERROR - Error in veneto: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,334 - ERROR - Error in emilia-romagna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,334 - ERROR - Error in toscana: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,334 - ERROR - Error in lazio: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,335 - ERROR - Error in campania: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,335 - ERROR - Error in sicilia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,335 - ERROR - Error in sardegna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,335 - ERROR - Error in puglia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,335 - ERROR - Error in abruzzo: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,335 - ERROR - Error in marche: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,335 - ERROR - Error in liguria: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,335 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,335 - ERROR - Error in trentino-alto-adige: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,335 - ERROR - Error in umbria: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,336 - ERROR - Error in molise: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,336 - ERROR - Error in basilicata: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,336 - ERROR - Error in valle-d-aosta: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,336 - ERROR - Error in milano: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,336 - ERROR - Error in torino: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,336 - ERROR - Error in genova: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,336 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,336 - ERROR - Error in firenze: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,336 - ERROR - Error in roma: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,336 - ERROR - Error in napoli: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,337 - ERROR - Error in aosta: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,337 - ERROR - Error in palermo: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,337 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,337 - ERROR - Error in bari: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,337 - ERROR - Error in ancona: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,337 - ERROR - Error in bologna: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,337 - ERROR - Error in cagliari: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,337 - ERROR - Error in trento: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,338 - ERROR - Error in campobasso: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,338 - ERROR - Error in catanzaro: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,338 - ERROR - Error in l-aquila: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,338 - ERROR - Error in potenza: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,339 - ERROR - Error in trieste: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:11:23,339 - ERROR - Error in venezia: [Errno 2] No such file or directory: 'src/dataframes/rents_raw2.parquet'
+2023-10-26 23:12:06,224 - ERROR - Error in lombardia: [Errno 22] Invalid argument
+2023-10-26 23:12:06,225 - ERROR - Error in piemonte: [Errno 22] Invalid argument
+2023-10-26 23:12:06,225 - ERROR - Error in veneto: [Errno 22] Invalid argument
+2023-10-26 23:12:06,225 - ERROR - Error in emilia-romagna: [Errno 22] Invalid argument
+2023-10-26 23:12:06,225 - ERROR - Error in toscana: [Errno 22] Invalid argument
+2023-10-26 23:12:06,225 - ERROR - Error in lazio: [Errno 22] Invalid argument
+2023-10-26 23:12:06,225 - ERROR - Error in campania: [Errno 22] Invalid argument
+2023-10-26 23:12:06,225 - ERROR - Error in sicilia: [Errno 22] Invalid argument
+2023-10-26 23:12:06,226 - ERROR - Error in sardegna: [Errno 22] Invalid argument
+2023-10-26 23:12:06,226 - ERROR - Error in puglia: [Errno 22] Invalid argument
+2023-10-26 23:12:06,226 - ERROR - Error in abruzzo: [Errno 22] Invalid argument
+2023-10-26 23:12:06,226 - ERROR - Error in marche: [Errno 22] Invalid argument
+2023-10-26 23:12:06,226 - ERROR - Error in liguria: [Errno 22] Invalid argument
+2023-10-26 23:12:06,226 - ERROR - Error in calabriafriuli-venezia-giulia: [Errno 22] Invalid argument
+2023-10-26 23:12:06,226 - ERROR - Error in trentino-alto-adige: [Errno 22] Invalid argument
+2023-10-26 23:12:06,226 - ERROR - Error in umbria: [Errno 22] Invalid argument
+2023-10-26 23:12:06,226 - ERROR - Error in molise: [Errno 22] Invalid argument
+2023-10-26 23:12:06,226 - ERROR - Error in basilicata: [Errno 22] Invalid argument
+2023-10-26 23:12:06,227 - ERROR - Error in valle-d-aosta: [Errno 22] Invalid argument
+2023-10-26 23:12:06,227 - ERROR - Error in milano: [Errno 22] Invalid argument
+2023-10-26 23:12:06,227 - ERROR - Error in torino: [Errno 22] Invalid argument
+2023-10-26 23:12:06,227 - ERROR - Error in genova: [Errno 22] Invalid argument
+2023-10-26 23:12:06,227 - ERROR - Error in bologna: [Errno 22] Invalid argument
+2023-10-26 23:12:06,227 - ERROR - Error in firenze: [Errno 22] Invalid argument
+2023-10-26 23:12:06,227 - ERROR - Error in roma: [Errno 22] Invalid argument
+2023-10-26 23:12:06,227 - ERROR - Error in napoli: [Errno 22] Invalid argument
+2023-10-26 23:12:06,227 - ERROR - Error in aosta: [Errno 22] Invalid argument
+2023-10-26 23:12:06,228 - ERROR - Error in palermo: [Errno 22] Invalid argument
+2023-10-26 23:12:06,228 - ERROR - Error in cagliari: [Errno 22] Invalid argument
+2023-10-26 23:12:06,228 - ERROR - Error in bari: [Errno 22] Invalid argument
+2023-10-26 23:12:06,228 - ERROR - Error in ancona: [Errno 22] Invalid argument
+2023-10-26 23:12:06,228 - ERROR - Error in bologna: [Errno 22] Invalid argument
+2023-10-26 23:12:06,228 - ERROR - Error in cagliari: [Errno 22] Invalid argument
+2023-10-26 23:12:06,228 - ERROR - Error in trento: [Errno 22] Invalid argument
+2023-10-26 23:12:06,228 - ERROR - Error in campobasso: [Errno 22] Invalid argument
+2023-10-26 23:12:06,229 - ERROR - Error in catanzaro: [Errno 22] Invalid argument
+2023-10-26 23:12:06,229 - ERROR - Error in l-aquila: [Errno 22] Invalid argument
+2023-10-26 23:12:06,229 - ERROR - Error in potenza: [Errno 22] Invalid argument
+2023-10-26 23:12:06,229 - ERROR - Error in trieste: [Errno 22] Invalid argument
+2023-10-26 23:12:06,229 - ERROR - Error in venezia: [Errno 22] Invalid argument

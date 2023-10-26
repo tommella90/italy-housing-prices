@@ -171,3 +171,4 @@ def main(limit, citta):
     print(colored(f"Saved {len(new_urls)} more annoucements\n", 'green', attrs=['bold']))
 
     return df_new
+

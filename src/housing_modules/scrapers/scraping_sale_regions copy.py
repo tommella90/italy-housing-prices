@@ -7,15 +7,15 @@ import time
 import random
 from termcolor import colored
 import warnings
-
-import re
-
-
+import os
 warnings.filterwarnings("ignore")
+os.chdir('/Users/tommella90/source/italy-housing-prices/src')
 
-def read_parquet():
+
+
+def read_parquet(data_path='dataframes/sales_raw.parquet'):
     try:
-        return pd.read_parquet('italy_housing_price_sale_raw.parquet.gzip')
+        return pd.read_parquet(data_path)
     except:
         df = pd.DataFrame()
         return df
@@ -31,9 +31,9 @@ def get_downloaded_hrefs(df):
 
 def get_all_webpages(limit, regione):
     urls = []
-    urls.append(f"https://www.immobiliare.it/affitto-case/{regione}/?criterio=rilevanza")
+    urls.append(f"https://www.immobiliare.it/vendita-case/{regione}/?criterio=rilevanza")
     for page in range(2, limit):
-        url = f"https://www.immobiliare.it/affitto-case/{regione}/?criterio=rilevanza&pag={page}"
+        url = f"https://www.immobiliare.it/vendita-case/{regione}/?criterio=rilevanza&pag={page}"
         urls.append(url)
     return urls
 
@@ -43,11 +43,9 @@ def get_all_announcements_urls(all_pages, downloaded):
 
     for index, url in enumerate(all_pages):
         try:
-            if index % 10 == 0:
-                print("Page: ", index, " of ", len(all_pages))
             response = requests.get(url)
             soup = bs(response.content, "html.parser")
-            page_urls = soup.select(".in-card__title")
+            page_urls = soup.select(".in-reListCard__title")
             page_urls = [url.get("href") for url in page_urls]
             page_urls_new = [url for url in page_urls if url not in downloaded]
             all_announcements_urls.append(page_urls_new)
@@ -126,40 +124,34 @@ def make_dataframe(href):
     return df
 
 
-def find_new_announcements(downloaded_hrefs, all_announcements_urls):
-    diff = list(set(all_announcements_urls).difference(set(downloaded_hrefs)))
-    return diff
-
-
-def main(limit, regione):
-    sleep = random.randint(1, 10)/10
-
-    df_old = read_parquet()
+def main(n_pages, regione):
+    df_old = pd.read_parquet('dataframes/sales_raw.parquet')
     downloaded_hrefs = get_downloaded_hrefs(df_old)
-    all_pages = get_all_webpages(limit, regione)
-    urls_to_scrape = get_all_announcements_urls(all_pages, downloaded_hrefs)
-    new_urls = find_new_announcements(df_old, urls_to_scrape)
+    all_pages = get_all_webpages(n_pages, "marche")
+    urls_found = get_all_announcements_urls(all_pages, downloaded_hrefs)
+    existing_urls = list(df_old['href'])
+    urls_to_scrape = list(set(urls_found).difference(set(existing_urls)))
 
-    if len(new_urls)==0:
+    if len(urls_to_scrape)==0:
         print(colored('No new data to scrape. Try tomorrow', 'yellow'))
         pass
 
     else:
-        print(colored(f"Found {len(new_urls)} new announcements to scrape", 'green'))
+        print(colored(f"Found {len(urls_to_scrape)} new announcements to scrape", 'green'))
 
-        df_new = pd.DataFrame()
-        for index, url in enumerate(new_urls):
-            if index % 100 == 0:
-                print(index, "/", len(new_urls))
+    df_new = pd.DataFrame()
+    for index, url in enumerate(urls_to_scrape):
+        try:
+            new_row = make_dataframe(url)
+            df_new = pd.concat([df_new, new_row], axis=0)
+            df_new['regione'] = regione
 
-            try:
-                new_row = make_dataframe(url)
-                df_new = pd.concat([df_new, new_row], axis=0)
-                df_new['regione'] = regione
-                #time.sleep(sleep)
-            except Exception as e:
-                print("ERROR : "+str(e), url)
+        except Exception as e:
+            print("ERROR : "+str(e), url)
 
-    print(colored(f"Saved {len(new_urls)} more annoucements\n", 'green', attrs=['bold']))
+    print(colored(f"Saved {len(urls_to_scrape)} more annoucements\n", 'green', attrs=['bold']))
 
     return df_new
+
+
+# %%

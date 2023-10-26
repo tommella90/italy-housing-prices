@@ -164,3 +164,25 @@ def main(limit, regione):
     print(colored(f"Saved {len(new_urls)} more annoucements\n", 'green', attrs=['bold']))
 
     return df_new
+
+
+# %%
+limit = 1
+regione = "lombardia"
+
+df_old = pd.read_parquet('dataframes/sales_raw.parquet')
+downloaded_hrefs = get_downloaded_hrefs(df_old)
+all_pages = get_all_webpages(limit, regione)
+urls_to_scrape = get_all_announcements_urls(all_pages, downloaded_hrefs)
+new_urls = find_new_announcements(df_old, urls_to_scrape)
+
+
+# %%
+new_urls
+# %%
+df_old.describe()
+# %%
+
+import os
+os.listdir()
+# %%

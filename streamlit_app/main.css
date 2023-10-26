@@ -1,0 +1,24 @@
+
+
+@import url('https//fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+* {font-family: 'Noto+Sans+JP', Montserrat;}
+
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 800;
+}
+
+a:hover {
+    color: #d33682 !important;
+    text-decoration: #f0b62e;
+}
+
+ul {list-style-type: none;}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+

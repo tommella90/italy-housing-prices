@@ -98,11 +98,3 @@ class DataCleaner():
         df.columns = [i.lower() for i in df.columns]
 
         return df
-
-
-#%%
-df = pd.read_parquet("dataframes/italy_housing_price_rent_raw.parquet.gzip")
-cleaner = DataCleaner(df)
-df_clean = cleaner.clean_data(df)
-
-# %%

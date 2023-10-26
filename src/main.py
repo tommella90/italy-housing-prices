@@ -1,28 +1,28 @@
-
 #%%
 import pandas as pd
-import housing_modules.scrapers.scraping_rents_cities as rents_cities_scraper
-import housing_modules.scrapers.scraping_rents_regions as rents_regions_scraper
-import housing_modules.scrapers.scraping_sale_cities as sale_cities_scraper
-import housing_modules.scrapers.scraping_sale_regions as sale_regions_scraper
-#import credential_config.get_credentials as gc
-import subprocess
-import time
-import os 
+from housing_modules.scraping import RealEstateScraper as scraper
 from tqdm import tqdm
 from termcolor import colored
+import logging
 import warnings
+import time
 warnings.filterwarnings("ignore")
 
-REGIONI = ['lombardia', 'piemonte', 'veneto', 'emilia-romagna', 'toscana', 'lazio',
-           'campania', 'sicilia', 'sardegna', 'puglia', 'abruzzo', 'marche', 'liguria', 
-           'calabria' 'friuli-venezia-giulia', 'trentino-alto-adige', 'umbria', 'molise',
-           'basilicata', 'valle-d-aosta']
+n_pages = 3
+
+# import os
+# set working directory
+
+# LOCATION 
+regione = ['lombardia', 'piemonte', 'veneto', 'emilia-romagna', 'toscana', 'lazio', 'campania', 'sicilia', 'sardegna', 'puglia', 'abruzzo', 'marche', 'liguria', 'calabria' 'friuli-venezia-giulia', 'trentino-alto-adige', 'umbria', 'molise','basilicata', 'valle-d-aosta']
 
 
-CAPOLUOGHI = ['milano', 'torino', 'genova', 'bologna', 'firenze', 'roma', 'napoli', 'aosta', 
-              'palermo', 'cagliari', 'bari', 'ancona', 'bologna', 'cagliari', 'trento', 
-              'campobasso', 'catanzaro', 'genoa', 'l-aquila', 'potenza', 'trieste', 'venezia']
+citta = ['milano', 'torino', 'genova', 'bologna', 'firenze', 'roma', 'napoli', 'aosta', 'palermo', 'cagliari', 'bari', 'ancona', 'bologna', 'cagliari', 'trento', 'campobasso', 'catanzaro', 'l-aquila', 'potenza', 'trieste', 'venezia']
+#%%
+
+# TRACK ERRORS
+log_file = 'scraper_errors.log'
+logging.basicConfig(filename=log_file, level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 def print_process(text):
@@ -33,96 +33,75 @@ def print_process(text):
     print("\n\n")
 
 
-def update_dataframe(dataframe, area, scraper, progress):
-    for index, regione in tqdm(enumerate(area), total=len(area), desc=progress):
-        print("*"*20)
-        try:
-            df = pd.read_parquet(dataframe)
-            print("*"*index)
-            print(colored(f"{regione.upper()}, {index+1}/{len(area)}", "green"))
-            if scraper == "rents_region":
-               new_data = rents_regions_scraper.main(n_pages, regione)
-            elif scraper == "rents_city":
-               new_data = rents_cities_scraper.main(n_pages, regione)
-            elif scraper == "sales_region":
-               new_data = sale_regions_scraper.main(n_pages, regione)
-            elif scraper == "sales_city":
-               new_data = sale_cities_scraper.main(n_pages, regione)
+def scrape(scraper, location, n_pages=2):
+    try:
+        df = pd.read_parquet(DATA)
+        print(colored(f"{location.upper()}", "green"))
+        df_new = scraper.main(n_pages=n_pages, where=location)
+        df_new = pd.concat([df, df_new], axis=0)
+        df_new.to_parquet('src/dataframes/sales_raw.parquet')
+        
+    except Exception as e:
+        error_message = str(e)
+        print(colored(error_message, "red"))
+        # Log the error to the file
+        logging.error(f"Error in {location}: {error_message}")
 
-            df_updated = pd.concat([df, new_data], axis=0)
-            df_updated.to_parquet(dataframe)
-        except:
-            pass
-    
 
-# get user and create dataframes folder
-"""
-user_name, user_email = gc.get_git_user_info()
-
-if user_name == "Tommaso Ramella" and user_email == "tommaso.ramella90@gmail.com":
-    if "dataframes" in os.listdir():
-        pass
-else: 
-    subprocess.check_output(['mkdir', 'dataframes'])
-    gc.query_housing_data("rents/rents_raw.parquet", "dataframes/rents_raw.parquet")
-    gc.query_housing_data("rents/rents_clean.parquet", "dataframes/rents_clean.parquet")
-    gc.query_housing_data("sales/sales_raw.parquet", "dataframes/sales_raw.parquet")
-    gc.query_housing_data("sales/sales_clean.parquet", "dataframes/sales_clean.parquet")
-"""
-    
-    
-
-# choose pages to scrape (max 80)
-n_pages = int(input("How many pages do you want to scrape? (Max.:80)"))
 start = time.time()
 
-#%%
-# ----- #
-# RENTS #
-# ----- #
-DATAFRAME_RENTS = "src/dataframes/rents_raw.parquet"
-df = pd.read_parquet(DATAFRAME_RENTS)
-starting_n = len(df)
-print("Starting n: ", starting_n)
-
-#%%
-# regions
-SCRAPER = "rents_region"
-print_process("1. RENT - regions")
-update_dataframe(DATAFRAME_RENTS, REGIONI, SCRAPER, "Rents -regions: 1/4")
-
-#%%
-# cities
-SCRAPER = "rents_cities"
-print_process("2. RENT - cities")
-update_dataframe(DATAFRAME_RENTS, CAPOLUOGHI, SCRAPER, "Rents - cities: 2/4")
-
-# ----- #
-# SALES #
-# ----- #
-DATAFRAME_SALES = "src/dataframes/sales_raw.parquet"
-df = pd.read_parquet(DATAFRAME_SALES)
-starting_n = len(df)
-print("Starting n: ", starting_n)
-
-# regions
-SCRAPER = "sales_regions"
-print_process("3. SALES - regions")
-update_dataframe(DATAFRAME_SALES, REGIONI, SCRAPER, "Sales - regions: 3/4")
-
-# cities
-SCRAPER = "sales_cities"
-print_process("4. SALES - cities")
-update_dataframe(DATAFRAME_SALES, CAPOLUOGHI, SCRAPER, "Sales - cities: 4/4")
+## SALES
+DATA = "src/dataframes/sales_raw.parquet"
+#df = pd.read_parquet(DATA)
 
 
-# done
-time = time.time() - start
+
+scraper_sale_region = scraper(data_path=DATA,
+                            location_focus='regione',
+                            type_focus='vendita' 
+                            )
+
+for regione_item in tqdm(regione, total=len(regione), desc="Sales - regions"):
+    print("*" * 20)
+    scrape(scraper_sale_region, regione_item, n_pages=n_pages)
+
+
+scraper_sale_city = scraper(data_path=DATA,
+                              location_focus='citta',
+                              type_focus='vendita'
+                              )
+
+for citta_item in tqdm(citta, total=len(citta), desc="Sales - cities"):
+    print("*" * 20)
+    scrape(scraper_sale_city, citta_item, n_pages=n_pages)
+
+
+## RENTS
+DATA = "src/dataframes/rents_raw.parquet"
+scraper_rent_region = scraper(data_path=DATA,
+                            location_focus='regione',
+                            type_focus='affitto'
+                            )
+
+for regione_item in tqdm(regione, total=len(regione), desc="Rents - regions"):
+    print("*" * 20)
+    scrape(scraper_rent_region, regione_item, n_pages=n_pages)
+
+
+scraper_rent_city = scraper(data_path=DATA,
+                            location_focus='citta',
+                            type_focus='affitto'
+                            )
+
+for citta_item in tqdm(citta, total=len(citta), desc="Rents - cities"):
+      print("*" * 20)
+      scrape(scraper_rent_city, citta_item, n_pages=n_pages)
+
+
+# TIME calculate time of execution
+minutes = (time.time() - start)/60
+print("ended in ", minutes, " minutes")
 print("\n\n")
-print(f'process terminated in {time}')
 
 
-
-# Close
-key = input("Press any key to close...")
-
+# %%
