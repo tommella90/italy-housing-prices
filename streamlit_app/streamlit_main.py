@@ -96,9 +96,9 @@ st.write("-"*10)
 ## FUNCTIONALITIES
 @st.cache_data
 def load_data():
-    df = pd.read_parquet("dataframes/italy_housing_price_rent_raw.parquet.gzip")
-    municipality_coords = pd.read_csv("geodata/municipalities_centroids.csv")
-    region_coords = pd.read_csv("geodata/regions_centroids.csv")
+    df = pd.read_parquet("streamlit_app/dataframes/italy_housing_price_rent_raw.parquet.gzip")
+    municipality_coords = pd.read_csv("streamlit_app/geodata/municipalities_centroids.csv")
+    region_coords = pd.read_csv("streamlit_app/geodata/regions_centroids.csv")
     # dd
     return df, municipality_coords, region_coords
 
@@ -286,7 +286,7 @@ def price_per_neighbourhoods(df, city, price_limit=5000):
     df = df.loc[df['citta'] == city]
 
     # city and neighboors cooridnates
-    city_jsn = pd.read_json(f"../data/prov_coords/{city}.json").T
+    city_jsn = pd.read_json(f"streamlit_app/geodata/prov_coords/{city}.json").T
     city_jsn.columns = ['lat', 'lon']
     df = df.merge(city_jsn, left_on='quartiere', right_on=city_jsn.index, how='left')
 
@@ -330,7 +330,7 @@ def plot_bar_neighbourhoods(df, city, max_price=5000):
                  labels={'Price':'Euros'}, height=2000)
     st.plotly_chart(fig)
 
-provinces = pd.read_excel('geodata/province-italiane.xlsx')
+provinces = pd.read_excel('streamlit_app/geodata/province-italiane.xlsx')
 provinces = list(provinces['Provincia'])
 
 st.sidebar.header("PROVINCIA")
