@@ -1,0 +1,7 @@
+geopy==2.3.0
+matplotlib==3.5.1
+numpy==1.22.3
+pandas==1.5.2
+plotly==5.9.0
+streamlit==1.20.0
+openpyxl==3.1.2
