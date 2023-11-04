@@ -1,17 +1,15 @@
 
-
+#%%
 import pandas as pd
 import numpy as np
 from datetime import date
-import geopandas as gpd
 import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.io as pio
-#import streamlit as st
+import streamlit as st
 #from streamlit_folium import st_folium
 from datetime import datetime
-
-#from maps_italy import MapPriceItaly
+from maps_italy import MapPriceItaly
 
 ## CONFIG ##
 st.set_page_config(layout="wide",
@@ -87,15 +85,21 @@ for index, col in enumerate(columns):
 
 st.write(selection)
 
+
 st.write("-"*10)
 
+# import os 
+# st.write(os.listdir())
+
+#%%
 
 ## FUNCTIONALITIES
 @st.cache_data
 def load_data():
-    df = pd.read_parquet("../dataframes/italy_housing_price_rent_raw.parquet.gzip")
-    municipality_coords = pd.read_csv("../data/municipalities_centroids.csv")
-    region_coords = pd.read_csv("../data/regions_centroids.csv")
+    df = pd.read_parquet("dataframes/italy_housing_price_rent_raw.parquet.gzip")
+    municipality_coords = pd.read_csv("geodata/municipalities_centroids.csv")
+    region_coords = pd.read_csv("geodata/regions_centroids.csv")
+    # dd
     return df, municipality_coords, region_coords
 
 
@@ -103,11 +107,12 @@ def clean_data(df):
 
     # PRICE
     df['prezzo'] = df['prezzo'].str.replace('€', '')
-    df['prezzo'] = df['prezzo'].str.replace(r'[^0-9]+', '')
+    df['prezzo'] = df['prezzo'].str.replace('[^0-9.]', '', regex=True)
+    df['prezzo'] = df['prezzo'].str.replace('.', '')
     df['prezzo'][df['prezzo'] == ''] = np.nan
     df['prezzo'] = df['prezzo'].astype(float)
 
-    # GEOGRAPHIC INGO
+    # GEOGRAPHIC INFO
     df['regione'] = df['regione'].str.title()
     df['citta'] = df['citta'].str.title()
 
@@ -115,7 +120,7 @@ def clean_data(df):
     df = df.rename(columns={'Riferimento e Data annuncio': "data"})
     date_regex = r'(\d{2}/\d{2}/\d{4})'
     df['datetime'] = df['data'].str.extract(date_regex)
-    df['datetime'] = pd.to_datetime(df['datetime'])
+    df['datetime'] = pd.to_datetime(df['datetime'], format='%d/%m/%Y')
     df = df.loc[(df['datetime'] > '2023-01-01') & (df['datetime'] < TODAY)]
     df = pd.merge(df, FULL_CALENDAR, how='outer', on='datetime')
 
@@ -325,7 +330,7 @@ def plot_bar_neighbourhoods(df, city, max_price=5000):
                  labels={'Price':'Euros'}, height=2000)
     st.plotly_chart(fig)
 
-provinces = pd.read_excel('../data/province-italiane.xlsx')
+provinces = pd.read_excel('geodata/province-italiane.xlsx')
 provinces = list(provinces['Provincia'])
 
 st.sidebar.header("PROVINCIA")
@@ -342,7 +347,6 @@ select_province = st.sidebar.selectbox(
 
 #%%
 
-"""
 price_values = st.slider('Select a price range',
                          min_value=0, max_value=10000,
                          value=(0, 5000))
@@ -359,13 +363,11 @@ date_values = st.slider('Select a date range',
                         value=(start_time, end_time),
                         format="YYYY-MM-DD")
 
-'''
+
 map_municipalities(df, municipalities_centroids,
                    date_start=date_values[0], date_end=date_values[1],
                     min_price=min_price, max_price=max_price
                    )
-'''
-"""
 
 
 
@@ -433,7 +435,8 @@ plot_time_series(avg_by_municipality, period, 'AVERAGE PRICE BY CITY', 'citta')
 
 
 #%%
-df = load_data()
+#df = load_data()
+df = pd.read_parquet("dataframes/italy_housing_price_rent_raw.parquet.gzip")
 df = clean_data(df)
 
 
@@ -451,10 +454,10 @@ df_slice = df_slice.loc[df_slice['citta'].isin(MUNICIPALITIES_SELECTED)]
 
 #%%
 
-df_slice['rooms'] = df_slice['stanze'].astype(int)
-#%%
-rooms = df_slice['stanze'].mean()
-st.write('Average number of rooms: ', rooms)
+# df_slice['rooms'] = df_slice['stanze'].astype(int)
+# #%%
+# rooms = df_slice['stanze'].mean()
+# st.write('Average number of rooms: ', rooms)
 
 
 #%%
